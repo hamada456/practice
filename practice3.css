@@ -12,7 +12,7 @@
     text-decoration: none;
     border-radius: 5px 5px 0 0;
 }
-.tab-nav-item.is-active {/*/ .が必要 /*/
+.tab-nav-item.is-active {   /*/ .が必要(HTMLは半角スペース) /*/
     background: #000;
     color: #fff;
 }
@@ -20,4 +20,6 @@
     border: 1px solid #ccc;
     padding: 20px;
 }
-.tab-contents-item {}
+.tab-contents-item {
+    display:none;
+}
